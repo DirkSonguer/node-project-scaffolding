@@ -1,0 +1,15 @@
+{
+    "name": "node-project-scaffolding",
+    "description": "A scaffolding for a new node.js project, usually a web service or local script.",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "dirk@songuer.de",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "restify": "^8.5.1",
+        "uuid": "^7.0.3"
+    }
+}

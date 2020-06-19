@@ -1,0 +1,22 @@
+{
+    "-environment": "production",
+    "environment": "local",
+    "production": {
+        "environment": "production",
+        "baseURL": "http://test.de",
+        "logging": {
+            "logLevel": 1,
+            "logTarget": "CONSOLE",
+            "logFile": "./debug.txt"
+        }
+    },
+    "local": {
+        "environment": "local",
+        "baseURL": "http://localhost:1337/",
+        "logging": {
+            "logLevel": 1,
+            "logTarget": "CONSOLE",
+            "logFile": "./debug.txt"
+        }
+    }
+}
